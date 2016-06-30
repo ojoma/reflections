@@ -1,0 +1,38 @@
+Using the 'diff' command line tool to track bug(s) between file versions
+is faster than manually going through the different files to track changes
+but there is some learning to do to understand how it does it. 
+
+The difference(s) in the files become apprant seeing the files side by side with the 
+differences.
+
+2.How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having easy access to entire history of a file enables one to easily spot changes and makes it easy to revert or undo changes.
+
+3.What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pros:
+1. You have a better control of what to commit and hence can decide when to commit
+
+2. Manual commit ensures you enter the desire comments in the changes.
+
+Con:
+
+1. You may forget to commit which means changes can be lost.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Saving multiple files allows tracking of files together. Changes can easily be spotted across connected files.
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+git log gives a summary of commits and ID associated with the commit. The messages in the commit enables one to know the correct ID for the commit. Using the commit ID of the previous commit and the most recent commit with git diff, one can easily see changes made to files.
+
+6. How might using version control make you more confident to make changes that could break something?
+
+Because you can recall previous changes, using a VS makes more confident of trying out new stuff that may break a working code.
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+Can't wait to start managing my project with git!
+
