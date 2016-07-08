@@ -5,3 +5,20 @@ When you initialize a repository, git setup the repository for monitoring. You i
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area provide a temporary location where files changes are stored before its commited to the repository. The repository keep track of committed changes to the file(s). The arctitecture ensures you have full control of what you commit.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+To ensure you have one commit per logical changer, you only add files per logical change to the staging area and commit once you are done.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+You use branches when you want to try out experemental feature(s) or derive a new functionality based on the master.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams shows you where are among branches and commits.
+
+
+5. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches combines changes from both branches into the master. We represent it in the diagram the way we do because it's a combination of two branches that result in the new master branch.
