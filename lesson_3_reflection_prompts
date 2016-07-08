@@ -4,3 +4,12 @@ When you are develpoing in groups, the code base is easier to manage with a remo
 2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 Manually pull allows you to pull what you need to sync with your local. Automatic pull my pull in changes that are not needed at that particular point in time.
+
+
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork is used to make a copy of a repository you would like to work and need to refrence the original author.
+
+A clone is a copy of the repository to your local machine. You usually clone a forked repository to work on it locally.
+
+Branches are snapshot  main path. Changes can be made to the new path without affecting the main path.
